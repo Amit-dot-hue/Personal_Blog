@@ -1,0 +1,175 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+html,body{
+     height: 100%;
+     width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+   
+}
+#header{
+      height: 13%;
+      width: 100%;
+    position: fixed;   
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+ background-color: rgba(255, 255, 255, 0.896);
+}
+#logo{
+   
+     height: 70%;
+}
+#logo img{
+     width: 100%;
+     height: 100%;
+     object-fit:cover;
+}
+.text{
+     
+     display: flex;
+     font-size: x-large;
+}
+.text:hover{
+      color: rgb(44, 186, 233) ;   
+}
+#contactdetail{
+     color: rgb(10, 10, 155);
+    
+     font-size: large;
+     margin-left: 20px;
+}
+.icon{
+    width: 50px; /* Initial width */
+    height: 50px; /* Initial height */
+   
+    border-radius: 50%; /* Circular icon */
+    transition: all 0.3s ease; /* Smooth transition */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 24px;
+}
+.icon:hover{
+    width: 70px; /* Expanded width */
+    height: 70px; /* Expanded height */
+    background-color: #e9e9e9; 
+     
+}
+#login{
+     width: 50px; /* Initial width */
+     height: 50px; /* Initial height */
+    
+     border-radius: 50%; /* Circular icon */
+     transition: all 0.3s ease; /* Smooth transition */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: black;
+     font-size: 24px;
+}
+#login:hover{
+    width: 70px; /* Expanded width */
+    height: 70px; /* Expanded height */
+    background-color: #e9e9e9; 
+}
+#try{
+     color: aliceblue;
+      font-size: x-large;
+      background-color: rgb(15, 195, 15);
+      padding: 10px;
+}
+#try:hover{
+      background-color: green;
+}
+
+#fakeheader{
+    height: 13%;
+    width: 100%;
+}
+#page1{
+     height: 87%;
+     width: 100%;
+     background-color: white;
+}
+#strip{
+    background-color: orange; 
+    color: aliceblue;
+    font-size: x-large;
+      width: 100%;
+      height: 8%;
+      display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+#strip u{
+     margin-left: 30px;
+      font-size: medium;
+}
+#column{
+     width: 100%;
+     height: 71%;
+     background-color: white; 
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+  
+}
+#box1{
+    margin-top: 140px;
+    background-color: #FFD700;
+    color: #000000;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 47%; 
+}
+
+#box1 p{
+    font-size:x-large;
+}
+
+
+
+#box2{
+    
+    width: 500px; /* Set the desired width */
+    height: 600px; /* Set the desired height */
+    overflow: hidden; /* Hide any overflow */
+    position: relative;
+}
+#box2 img{
+    padding: 10px;
+    border-radius: 50%;
+        margin-top: 90px;
+        translate: 0px -5px;
+        width: 100%; /* Make the image cover the box width */
+        height: 100%; /* Make the image cover the box height */
+        object-fit: cover; /* Maintain aspect ratio and cover the box */
+        position: absolute; /* Allow positioning */
+        top: 50%; /* Center the image */
+        left: 50%; /* Center the image */
+        transform: translate(-50%, -50%);;
+}
+
+#neecha{
+      width: 100%;
+      height: 16%; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: blue;
+}
+#neecha h1{
+     font-weight: 600;
+}
